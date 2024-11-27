@@ -8,26 +8,62 @@ header {
   text-align: center;
   padding: 1em;
 }
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+#redSection
+{
+  background-color: red;
 }
 
-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
+#redSection img {
+  width: 20%;
+  float: left;
 }
 
-#penguin {
-  width: 200px;
+#redSection table {
+  float: right;
+  color: aqua;
+  background-color: green;
 }
 
-#painting {
-  width: 200px;
+#orangeSection
+{
+  background-color: orangered;
 }
 
+#orangeSection img {
+  width: 20%;
+  float:left;
+}
+
+#yellowSection {
+  background-color: #dda026;
+}
+
+#yellowSection ul {
+  float: left;
+}
+
+#yellow2img {
+  float: right;
+  width: 20%;
+}
+
+#yellowSection p {
+  
+}
+
+#yellowSection::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+#blueSection {
+  background-color: blue;
+  width: 18.75%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
 
 div {
   background-color: beige;
@@ -35,8 +71,8 @@ div {
   padding: 10px;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
+div::after {
+  clear: both;
+  display: table;
+  content: "";
 }
-  

@@ -20,23 +20,100 @@ nav ul li {
   margin-right: 10px;
 }
 
+#redSection {
+  background-color: red;
+}
+
+p {
+  padding: 2%;
+  margin: 2%;
+}
+
+#redSection img {
+  float: left;
+  padding: 2%;
+}
+
+#redSection ol {
+  float: right;
+  font-size: 3rem;
+  padding: 5%;
+}
+
+div::after {
+  /* clear fix hack */
+  clear: both;
+  display: table;
+  content: "";
+}
+
+#orangeSection {
+  background-color: orange;
+}
+
+#orangeSection img {
+  float: left;
+  padding: 2%;
+}
+
+#yellowSection {
+  background-color: yellow;
+}
+
+#yellowSection > img:nth-child(2) {
+  float: right;
+  /* position: relative;
+  left: 100px; */
+}
+
+#greenSection {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+#greenSection img {
+  margin: 5%;
+  float:  left;
+}
+
+#blueRectangle {
+  background-color: blue;
+  width: 350px;
+  height: 150px;
+  margin: 5%;
+  
+}
+
+
+/* 
 #penguin {
   width: 200px;
+  float: right;
 }
 
 #painting {
   width: 200px;
-}
+  float: left;
+} */
 
 
 div {
   background-color: beige;
   border: black solid 1px;
-  padding: 10px;
+}
+
+div::after {
+  /* clear fix hack */
+  clear: both;
+  display: table;
+  content: "";
 }
 
 nav {
   display: flex;
   justify-content: center;
+  clear: left;
 }
   

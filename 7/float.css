@@ -1,0 +1,68 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(3, 1fr) ;
+    gap: 10px;
+}
+
+#red {
+    background-color: red;
+    color: lightcoral;
+    grid-column: 1 / 4 ;
+    grid-row: 1 / 2 ;
+}
+
+#yellow {
+    background-color: yellow;
+    color: black;
+    grid-column: 1 /4 ;
+    grid-row: 2 / 3;
+}
+
+#orange {
+    background-color: orange;
+    color: whitesmoke;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4 ;
+}
+
+#one {
+    float: left;
+    padding:  15px; 
+    margin-left: 10px;
+} 
+
+ #two {
+    float: right;
+    padding: 15px;
+    margin-right: 10px; 
+    position: absolute;
+    /* position: fixed; */
+
+}
+
+div::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+/* #p {
+    position: relative; 
+} */
+
+#three {
+    float: right;
+    position: absolute;
+     
+}
+
+img {
+    margin: 15px;
+}
+
+.list {
+    float: right;
+    clear: right;
+    font-size: xx-large;
+}

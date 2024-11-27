@@ -22,6 +22,8 @@ nav ul li {
 
 #penguin {
   width: 200px;
+  float: right;
+  clear: left;
 }
 
 #painting {
@@ -40,3 +42,8 @@ nav {
   justify-content: center;
 }
   
+div::after {
+  clear: both;
+  display: table;
+  content: "";
+}

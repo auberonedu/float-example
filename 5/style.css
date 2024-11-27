@@ -1,6 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-}
 
 header {
   background-color: #4CAF50;
@@ -21,22 +18,43 @@ nav ul li {
 }
 
 #penguin {
-  width: 200px;
+  width: 15%;
+  float: left;
 }
-
+#penguin2 {
+  width: 10%;
+  float: left;
+  text-wrap: left;
+}
 #painting {
   width: 200px;
+  float: right;
 }
 
-
-div {
-  background-color: beige;
-  border: black solid 1px;
-  padding: 10px;
+#red{
+  color: black;
+  background-color: red;
+  float: none;
+  padding:0px;
+  text-align: center;
+}
+#yellow{
+  background-color: yellow;
+  color:black;
+  float: none;
+}
+#orange{
+  background-color: orange;
+  color:black;
+  float: none;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-}
+p{
+  margin:0px;
   
+}
+div::after{
+  clear:both;
+  display: table;
+  content: ""
+}

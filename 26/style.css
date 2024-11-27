@@ -22,10 +22,12 @@ nav ul li {
 
 #penguin {
   width: 200px;
+  float: right;
 }
 
 #painting {
   width: 200px;
+  float: left;
 }
 
 
@@ -38,5 +40,12 @@ div {
 nav {
   display: flex;
   justify-content: center;
+  clear: left;
+}
+
+div::after {
+  clear: both;
+  display: table;
+  content: "";
 }
   
