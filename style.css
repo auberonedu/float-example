@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#penguin {
+  width: 200px;
+}
+
+#painting {
+  width: 200px;
+}
+  
