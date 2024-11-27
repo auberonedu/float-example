@@ -27,4 +27,16 @@ nav ul li {
 #painting {
   width: 200px;
 }
+
+
+div {
+  background-color: beige;
+  border: black solid 1px;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
   
